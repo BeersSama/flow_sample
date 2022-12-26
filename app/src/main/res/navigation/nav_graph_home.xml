@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph_home"
+    app:startDestination="@id/plantListFragment">
+
+    <fragment
+        android:id="@+id/plantListFragment"
+        android:name="com.beerus.flow_code_learn.ui.PlantListFragment"
+        android:label="PlantListFragment" />
+</navigation>
